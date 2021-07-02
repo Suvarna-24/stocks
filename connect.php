@@ -3,9 +3,10 @@
 $servername = "sql6.freesqldatabase.com";
 $username = "sql6422177";
 $password = "dKNFHXkf6Z";
+$db="sql6422177";
 
 // Create connection
-$con = new mysqli($servername, $username, $password);
+$con = new mysqli($servername, $username, $password ,$db);
 
 // Check connection
 if ($con->connect_error) {
